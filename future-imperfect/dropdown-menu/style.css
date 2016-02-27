@@ -1,0 +1,26 @@
+#header .links {
+    overflow: visible;
+}
+
+#header .links .dropdown ul li {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    padding: 0 0 0 12px !important;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
